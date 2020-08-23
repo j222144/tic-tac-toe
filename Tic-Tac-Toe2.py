@@ -1,11 +1,5 @@
 import random
 
-class Game:
-
-    def random():
-        ai = random.randrange(1,9)
-        return ai
-            
 
 class Re_run:
     def re_play():
@@ -32,7 +26,12 @@ class Re_run:
             Game.play()
 
 
+class Game:
 
+    def random():
+        ai = random.randrange(1,9)
+        return ai
+            
         
     def play():
         pos = ['1','2','3','4','5','6','7','8','9']
